@@ -1,4 +1,4 @@
-# omnilib-stability
+# omnilib-ml
 
 Official repostitory for the paper Antibody folding fitness encoded in complementarity determining region sequences
 
