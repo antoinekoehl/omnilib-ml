@@ -4,6 +4,8 @@ Official repostitory for the paper Antibody folding fitness encoded in complemen
 
 Code to reproduce the models and figures will be provided, and pretrained model checkpoints are located here.
 
+In general, these models work best with the synthetc libraries described in this paper: [Yeast surface display platform for rapid discovery of conformationally selective nanobodies]( https://www.nature.com/articles/s41594-018-0028-6), as well as the current work.
+
 ## Installation
 
 Required packages are listed in the requirements.txt file.
