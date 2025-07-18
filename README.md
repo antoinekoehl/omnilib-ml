@@ -1,6 +1,6 @@
 # omnilib-stability
 
-Official repostitory for the paper *TODO: Add paper name*.
+Official repostitory for the paper Antibody folding fitness encoded in complementarity determining region sequences
 
 Code to reproduce the models and figures will be provided, and pretrained model checkpoints are located here.
 
