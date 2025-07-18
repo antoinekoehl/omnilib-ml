@@ -1,0 +1,13 @@
+numpy==1.2.4
+pandas==1.5.3
+scikit-learn==1.2.2
+matplotlib
+seaborn
+notebook
+tqdm
+biopython
+levenshtein
+logomaker
+
+--extra-index-url https://download.pytorch.org/whl/cu118
+torch==2.2.0+cu118
