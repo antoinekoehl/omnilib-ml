@@ -1,0 +1,119 @@
+----------------------------------------
+chain_id_jsonl is NOT loaded
+----------------------------------------
+fixed_positions_jsonl is NOT loaded
+----------------------------------------
+pssm_jsonl is NOT loaded
+----------------------------------------
+omit_AA_jsonl is NOT loaded
+----------------------------------------
+bias_AA_jsonl is NOT loaded
+----------------------------------------
+tied_positions_jsonl is NOT loaded
+----------------------------------------
+bias by residue dictionary is not loaded, or not provided
+----------------------------------------
+----------------------------------------
+Number of edges: 48
+Training noise level: 0.2A
+Score for 7xqv_B from PDB, mean: 1.4872, std: 0.0170, sample size: 5,  global score, mean: 1.4872, std: 0.0170, sample size: 5
+Score for 7xqv_B_1 from FASTA, mean: 2.5198, std: 0.0165, sample size: 5,  global score, mean: 2.5198, std: 0.0165, sample size: 5
+Score for 7xqv_B_2 from FASTA, mean: 2.5445, std: 0.0168, sample size: 5,  global score, mean: 2.5445, std: 0.0168, sample size: 5
+Score for 7xqv_B_3 from FASTA, mean: 2.5357, std: 0.0199, sample size: 5,  global score, mean: 2.5357, std: 0.0199, sample size: 5
+Score for 7xqv_B_4 from FASTA, mean: 2.5378, std: 0.0156, sample size: 5,  global score, mean: 2.5378, std: 0.0156, sample size: 5
+Score for 7xqv_B_5 from FASTA, mean: 2.5599, std: 0.0081, sample size: 5,  global score, mean: 2.5599, std: 0.0081, sample size: 5
+Score for 7xqv_B_6 from FASTA, mean: 2.5369, std: 0.0176, sample size: 5,  global score, mean: 2.5369, std: 0.0176, sample size: 5
+Score for 7xqv_B_7 from FASTA, mean: 2.5568, std: 0.0215, sample size: 5,  global score, mean: 2.5568, std: 0.0215, sample size: 5
+Score for 7xqv_B_8 from FASTA, mean: 2.5401, std: 0.0165, sample size: 5,  global score, mean: 2.5401, std: 0.0165, sample size: 5
+Score for 7xqv_B_9 from FASTA, mean: 2.5461, std: 0.0251, sample size: 5,  global score, mean: 2.5461, std: 0.0251, sample size: 5
+Score for 7xqv_B_10 from FASTA, mean: 2.5323, std: 0.0237, sample size: 5,  global score, mean: 2.5323, std: 0.0237, sample size: 5
+Score for 7xqv_B_11 from FASTA, mean: 2.5156, std: 0.0223, sample size: 5,  global score, mean: 2.5156, std: 0.0223, sample size: 5
+Score for 7xqv_B_12 from FASTA, mean: 2.5331, std: 0.0090, sample size: 5,  global score, mean: 2.5331, std: 0.0090, sample size: 5
+Score for 7xqv_B_13 from FASTA, mean: 2.5286, std: 0.0107, sample size: 5,  global score, mean: 2.5286, std: 0.0107, sample size: 5
+Score for 7xqv_B_14 from FASTA, mean: 2.5408, std: 0.0147, sample size: 5,  global score, mean: 2.5408, std: 0.0147, sample size: 5
+Score for 7xqv_B_15 from FASTA, mean: 2.5539, std: 0.0313, sample size: 5,  global score, mean: 2.5539, std: 0.0313, sample size: 5
+Score for 7xqv_B_16 from FASTA, mean: 2.5427, std: 0.0137, sample size: 5,  global score, mean: 2.5427, std: 0.0137, sample size: 5
+Score for 7xqv_B_17 from FASTA, mean: 2.5362, std: 0.0121, sample size: 5,  global score, mean: 2.5362, std: 0.0121, sample size: 5
+Score for 7xqv_B_18 from FASTA, mean: 2.5435, std: 0.0265, sample size: 5,  global score, mean: 2.5435, std: 0.0265, sample size: 5
+Score for 7xqv_B_19 from FASTA, mean: 2.5566, std: 0.0199, sample size: 5,  global score, mean: 2.5566, std: 0.0199, sample size: 5
+Score for 7xqv_B_20 from FASTA, mean: 2.5347, std: 0.0341, sample size: 5,  global score, mean: 2.5347, std: 0.0341, sample size: 5
+Score for 7xqv_B_21 from FASTA, mean: 2.5213, std: 0.0322, sample size: 5,  global score, mean: 2.5213, std: 0.0322, sample size: 5
+Score for 7xqv_B_22 from FASTA, mean: 2.5250, std: 0.0164, sample size: 5,  global score, mean: 2.5250, std: 0.0164, sample size: 5
+Score for 7xqv_B_23 from FASTA, mean: 2.5584, std: 0.0226, sample size: 5,  global score, mean: 2.5584, std: 0.0226, sample size: 5
+Score for 7xqv_B_24 from FASTA, mean: 2.5377, std: 0.0217, sample size: 5,  global score, mean: 2.5377, std: 0.0217, sample size: 5
+Score for 7xqv_B_25 from FASTA, mean: 2.5446, std: 0.0112, sample size: 5,  global score, mean: 2.5446, std: 0.0112, sample size: 5
+Score for 7xqv_B_26 from FASTA, mean: 2.5223, std: 0.0120, sample size: 5,  global score, mean: 2.5223, std: 0.0120, sample size: 5
+Score for 7xqv_B_27 from FASTA, mean: 2.5365, std: 0.0248, sample size: 5,  global score, mean: 2.5365, std: 0.0248, sample size: 5
+Score for 7xqv_B_28 from FASTA, mean: 2.5308, std: 0.0260, sample size: 5,  global score, mean: 2.5308, std: 0.0260, sample size: 5
+Score for 7xqv_B_29 from FASTA, mean: 2.5478, std: 0.0174, sample size: 5,  global score, mean: 2.5478, std: 0.0174, sample size: 5
+Score for 7xqv_B_30 from FASTA, mean: 2.5342, std: 0.0165, sample size: 5,  global score, mean: 2.5342, std: 0.0165, sample size: 5
+Score for 7xqv_B_31 from FASTA, mean: 2.5214, std: 0.0374, sample size: 5,  global score, mean: 2.5214, std: 0.0374, sample size: 5
+Score for 7xqv_B_32 from FASTA, mean: 2.5435, std: 0.0256, sample size: 5,  global score, mean: 2.5435, std: 0.0256, sample size: 5
+Score for 7xqv_B_33 from FASTA, mean: 2.5480, std: 0.0268, sample size: 5,  global score, mean: 2.5480, std: 0.0268, sample size: 5
+Score for 7xqv_B_34 from FASTA, mean: 2.5362, std: 0.0113, sample size: 5,  global score, mean: 2.5362, std: 0.0113, sample size: 5
+Score for 7xqv_B_35 from FASTA, mean: 2.5515, std: 0.0092, sample size: 5,  global score, mean: 2.5515, std: 0.0092, sample size: 5
+Score for 7xqv_B_36 from FASTA, mean: 2.5342, std: 0.0215, sample size: 5,  global score, mean: 2.5342, std: 0.0215, sample size: 5
+Score for 7xqv_B_37 from FASTA, mean: 2.5187, std: 0.0322, sample size: 5,  global score, mean: 2.5187, std: 0.0322, sample size: 5
+Score for 7xqv_B_38 from FASTA, mean: 2.5412, std: 0.0056, sample size: 5,  global score, mean: 2.5412, std: 0.0056, sample size: 5
+Score for 7xqv_B_39 from FASTA, mean: 2.5395, std: 0.0109, sample size: 5,  global score, mean: 2.5395, std: 0.0109, sample size: 5
+Score for 7xqv_B_40 from FASTA, mean: 2.5384, std: 0.0174, sample size: 5,  global score, mean: 2.5384, std: 0.0174, sample size: 5
+Score for 7xqv_B_41 from FASTA, mean: 2.5519, std: 0.0266, sample size: 5,  global score, mean: 2.5519, std: 0.0266, sample size: 5
+Score for 7xqv_B_42 from FASTA, mean: 2.5453, std: 0.0187, sample size: 5,  global score, mean: 2.5453, std: 0.0187, sample size: 5
+Score for 7xqv_B_43 from FASTA, mean: 2.5610, std: 0.0202, sample size: 5,  global score, mean: 2.5610, std: 0.0202, sample size: 5
+Score for 7xqv_B_44 from FASTA, mean: 2.5134, std: 0.0061, sample size: 5,  global score, mean: 2.5134, std: 0.0061, sample size: 5
+Score for 7xqv_B_45 from FASTA, mean: 2.5427, std: 0.0278, sample size: 5,  global score, mean: 2.5427, std: 0.0278, sample size: 5
+Score for 7xqv_B_46 from FASTA, mean: 2.5342, std: 0.0247, sample size: 5,  global score, mean: 2.5342, std: 0.0247, sample size: 5
+Score for 7xqv_B_47 from FASTA, mean: 2.5481, std: 0.0192, sample size: 5,  global score, mean: 2.5481, std: 0.0192, sample size: 5
+Score for 7xqv_B_48 from FASTA, mean: 2.5150, std: 0.0121, sample size: 5,  global score, mean: 2.5150, std: 0.0121, sample size: 5
+Score for 7xqv_B_49 from FASTA, mean: 2.5222, std: 0.0141, sample size: 5,  global score, mean: 2.5222, std: 0.0141, sample size: 5
+Score for 7xqv_B_50 from FASTA, mean: 2.5177, std: 0.0165, sample size: 5,  global score, mean: 2.5177, std: 0.0165, sample size: 5
+Score for 7xqv_B_51 from FASTA, mean: 2.5362, std: 0.0131, sample size: 5,  global score, mean: 2.5362, std: 0.0131, sample size: 5
+Score for 7xqv_B_52 from FASTA, mean: 2.5294, std: 0.0235, sample size: 5,  global score, mean: 2.5294, std: 0.0235, sample size: 5
+Score for 7xqv_B_53 from FASTA, mean: 2.5323, std: 0.0144, sample size: 5,  global score, mean: 2.5323, std: 0.0144, sample size: 5
+Score for 7xqv_B_54 from FASTA, mean: 2.5262, std: 0.0142, sample size: 5,  global score, mean: 2.5262, std: 0.0142, sample size: 5
+Score for 7xqv_B_55 from FASTA, mean: 2.5504, std: 0.0153, sample size: 5,  global score, mean: 2.5504, std: 0.0153, sample size: 5
+Score for 7xqv_B_56 from FASTA, mean: 2.5424, std: 0.0244, sample size: 5,  global score, mean: 2.5424, std: 0.0244, sample size: 5
+Score for 7xqv_B_57 from FASTA, mean: 2.5356, std: 0.0112, sample size: 5,  global score, mean: 2.5356, std: 0.0112, sample size: 5
+Score for 7xqv_B_58 from FASTA, mean: 2.5219, std: 0.0111, sample size: 5,  global score, mean: 2.5219, std: 0.0111, sample size: 5
+Score for 7xqv_B_59 from FASTA, mean: 2.5588, std: 0.0175, sample size: 5,  global score, mean: 2.5588, std: 0.0175, sample size: 5
+Score for 7xqv_B_60 from FASTA, mean: 2.5460, std: 0.0085, sample size: 5,  global score, mean: 2.5460, std: 0.0085, sample size: 5
+Score for 7xqv_B_61 from FASTA, mean: 2.5444, std: 0.0184, sample size: 5,  global score, mean: 2.5444, std: 0.0184, sample size: 5
+Score for 7xqv_B_62 from FASTA, mean: 2.5191, std: 0.0343, sample size: 5,  global score, mean: 2.5191, std: 0.0343, sample size: 5
+Score for 7xqv_B_63 from FASTA, mean: 2.5099, std: 0.0231, sample size: 5,  global score, mean: 2.5099, std: 0.0231, sample size: 5
+Score for 7xqv_B_64 from FASTA, mean: 2.5594, std: 0.0165, sample size: 5,  global score, mean: 2.5594, std: 0.0165, sample size: 5
+Score for 7xqv_B_65 from FASTA, mean: 2.5168, std: 0.0208, sample size: 5,  global score, mean: 2.5168, std: 0.0208, sample size: 5
+Score for 7xqv_B_66 from FASTA, mean: 2.5453, std: 0.0250, sample size: 5,  global score, mean: 2.5453, std: 0.0250, sample size: 5
+Score for 7xqv_B_67 from FASTA, mean: 2.5305, std: 0.0242, sample size: 5,  global score, mean: 2.5305, std: 0.0242, sample size: 5
+Score for 7xqv_B_68 from FASTA, mean: 2.5321, std: 0.0317, sample size: 5,  global score, mean: 2.5321, std: 0.0317, sample size: 5
+Score for 7xqv_B_69 from FASTA, mean: 2.5305, std: 0.0107, sample size: 5,  global score, mean: 2.5305, std: 0.0107, sample size: 5
+Score for 7xqv_B_70 from FASTA, mean: 2.5494, std: 0.0154, sample size: 5,  global score, mean: 2.5494, std: 0.0154, sample size: 5
+Score for 7xqv_B_71 from FASTA, mean: 2.5453, std: 0.0129, sample size: 5,  global score, mean: 2.5453, std: 0.0129, sample size: 5
+Score for 7xqv_B_72 from FASTA, mean: 2.5103, std: 0.0150, sample size: 5,  global score, mean: 2.5103, std: 0.0150, sample size: 5
+Score for 7xqv_B_73 from FASTA, mean: 2.5455, std: 0.0124, sample size: 5,  global score, mean: 2.5455, std: 0.0124, sample size: 5
+Score for 7xqv_B_74 from FASTA, mean: 2.5477, std: 0.0185, sample size: 5,  global score, mean: 2.5477, std: 0.0185, sample size: 5
+Score for 7xqv_B_75 from FASTA, mean: 2.5729, std: 0.0115, sample size: 5,  global score, mean: 2.5729, std: 0.0115, sample size: 5
+Score for 7xqv_B_76 from FASTA, mean: 2.5219, std: 0.0232, sample size: 5,  global score, mean: 2.5219, std: 0.0232, sample size: 5
+Score for 7xqv_B_77 from FASTA, mean: 2.5253, std: 0.0119, sample size: 5,  global score, mean: 2.5253, std: 0.0119, sample size: 5
+Score for 7xqv_B_78 from FASTA, mean: 2.5439, std: 0.0120, sample size: 5,  global score, mean: 2.5439, std: 0.0120, sample size: 5
+Score for 7xqv_B_79 from FASTA, mean: 2.5385, std: 0.0254, sample size: 5,  global score, mean: 2.5385, std: 0.0254, sample size: 5
+Score for 7xqv_B_80 from FASTA, mean: 2.5214, std: 0.0245, sample size: 5,  global score, mean: 2.5214, std: 0.0245, sample size: 5
+Score for 7xqv_B_81 from FASTA, mean: 2.5280, std: 0.0240, sample size: 5,  global score, mean: 2.5280, std: 0.0240, sample size: 5
+Score for 7xqv_B_82 from FASTA, mean: 2.5239, std: 0.0040, sample size: 5,  global score, mean: 2.5239, std: 0.0040, sample size: 5
+Score for 7xqv_B_83 from FASTA, mean: 2.5343, std: 0.0245, sample size: 5,  global score, mean: 2.5343, std: 0.0245, sample size: 5
+Score for 7xqv_B_84 from FASTA, mean: 2.5457, std: 0.0281, sample size: 5,  global score, mean: 2.5457, std: 0.0281, sample size: 5
+Score for 7xqv_B_85 from FASTA, mean: 2.5318, std: 0.0187, sample size: 5,  global score, mean: 2.5318, std: 0.0187, sample size: 5
+Score for 7xqv_B_86 from FASTA, mean: 2.5519, std: 0.0088, sample size: 5,  global score, mean: 2.5519, std: 0.0088, sample size: 5
+Score for 7xqv_B_87 from FASTA, mean: 2.5547, std: 0.0177, sample size: 5,  global score, mean: 2.5547, std: 0.0177, sample size: 5
+Score for 7xqv_B_88 from FASTA, mean: 2.5394, std: 0.0332, sample size: 5,  global score, mean: 2.5394, std: 0.0332, sample size: 5
+Score for 7xqv_B_89 from FASTA, mean: 2.5485, std: 0.0187, sample size: 5,  global score, mean: 2.5485, std: 0.0187, sample size: 5
+Score for 7xqv_B_90 from FASTA, mean: 2.5383, std: 0.0146, sample size: 5,  global score, mean: 2.5383, std: 0.0146, sample size: 5
+Score for 7xqv_B_91 from FASTA, mean: 2.5312, std: 0.0194, sample size: 5,  global score, mean: 2.5312, std: 0.0194, sample size: 5
+Score for 7xqv_B_92 from FASTA, mean: 2.5540, std: 0.0151, sample size: 5,  global score, mean: 2.5540, std: 0.0151, sample size: 5
+Score for 7xqv_B_93 from FASTA, mean: 2.5402, std: 0.0205, sample size: 5,  global score, mean: 2.5402, std: 0.0205, sample size: 5
+Score for 7xqv_B_94 from FASTA, mean: 2.5527, std: 0.0151, sample size: 5,  global score, mean: 2.5527, std: 0.0151, sample size: 5
+Score for 7xqv_B_95 from FASTA, mean: 2.5413, std: 0.0225, sample size: 5,  global score, mean: 2.5413, std: 0.0225, sample size: 5
+Score for 7xqv_B_96 from FASTA, mean: 2.5495, std: 0.0235, sample size: 5,  global score, mean: 2.5495, std: 0.0235, sample size: 5
+Score for 7xqv_B_97 from FASTA, mean: 2.5339, std: 0.0149, sample size: 5,  global score, mean: 2.5339, std: 0.0149, sample size: 5
+Score for 7xqv_B_98 from FASTA, mean: 2.5353, std: 0.0192, sample size: 5,  global score, mean: 2.5353, std: 0.0192, sample size: 5
+Score for 7xqv_B_99 from FASTA, mean: 2.5550, std: 0.0193, sample size: 5,  global score, mean: 2.5550, std: 0.0193, sample size: 5
+Score for 7xqv_B_100 from FASTA, mean: 2.5092, std: 0.0174, sample size: 5,  global score, mean: 2.5092, std: 0.0174, sample size: 5

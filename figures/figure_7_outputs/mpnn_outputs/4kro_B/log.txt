@@ -1,0 +1,119 @@
+----------------------------------------
+chain_id_jsonl is NOT loaded
+----------------------------------------
+fixed_positions_jsonl is NOT loaded
+----------------------------------------
+pssm_jsonl is NOT loaded
+----------------------------------------
+omit_AA_jsonl is NOT loaded
+----------------------------------------
+bias_AA_jsonl is NOT loaded
+----------------------------------------
+tied_positions_jsonl is NOT loaded
+----------------------------------------
+bias by residue dictionary is not loaded, or not provided
+----------------------------------------
+----------------------------------------
+Number of edges: 48
+Training noise level: 0.2A
+Score for 4kro_B from PDB, mean: 1.6225, std: 0.0032, sample size: 5,  global score, mean: 1.5291, std: 0.0024, sample size: 5
+Score for 4kro_B_1 from FASTA, mean: 1.9467, std: 0.0049, sample size: 5,  global score, mean: 1.7283, std: 0.0050, sample size: 5
+Score for 4kro_B_2 from FASTA, mean: 1.9457, std: 0.0108, sample size: 5,  global score, mean: 1.7283, std: 0.0113, sample size: 5
+Score for 4kro_B_3 from FASTA, mean: 1.9462, std: 0.0209, sample size: 5,  global score, mean: 1.7296, std: 0.0134, sample size: 5
+Score for 4kro_B_4 from FASTA, mean: 1.9422, std: 0.0098, sample size: 5,  global score, mean: 1.7259, std: 0.0088, sample size: 5
+Score for 4kro_B_5 from FASTA, mean: 1.9406, std: 0.0114, sample size: 5,  global score, mean: 1.7218, std: 0.0095, sample size: 5
+Score for 4kro_B_6 from FASTA, mean: 1.9522, std: 0.0100, sample size: 5,  global score, mean: 1.7312, std: 0.0049, sample size: 5
+Score for 4kro_B_7 from FASTA, mean: 1.9558, std: 0.0071, sample size: 5,  global score, mean: 1.7326, std: 0.0058, sample size: 5
+Score for 4kro_B_8 from FASTA, mean: 1.9437, std: 0.0094, sample size: 5,  global score, mean: 1.7285, std: 0.0081, sample size: 5
+Score for 4kro_B_9 from FASTA, mean: 1.9357, std: 0.0075, sample size: 5,  global score, mean: 1.7176, std: 0.0058, sample size: 5
+Score for 4kro_B_10 from FASTA, mean: 1.9403, std: 0.0080, sample size: 5,  global score, mean: 1.7248, std: 0.0055, sample size: 5
+Score for 4kro_B_11 from FASTA, mean: 1.9483, std: 0.0124, sample size: 5,  global score, mean: 1.7311, std: 0.0048, sample size: 5
+Score for 4kro_B_12 from FASTA, mean: 1.9460, std: 0.0045, sample size: 5,  global score, mean: 1.7280, std: 0.0026, sample size: 5
+Score for 4kro_B_13 from FASTA, mean: 1.9472, std: 0.0070, sample size: 5,  global score, mean: 1.7265, std: 0.0048, sample size: 5
+Score for 4kro_B_14 from FASTA, mean: 1.9444, std: 0.0151, sample size: 5,  global score, mean: 1.7265, std: 0.0085, sample size: 5
+Score for 4kro_B_15 from FASTA, mean: 1.9424, std: 0.0142, sample size: 5,  global score, mean: 1.7253, std: 0.0089, sample size: 5
+Score for 4kro_B_16 from FASTA, mean: 1.9465, std: 0.0092, sample size: 5,  global score, mean: 1.7287, std: 0.0037, sample size: 5
+Score for 4kro_B_17 from FASTA, mean: 1.9522, std: 0.0134, sample size: 5,  global score, mean: 1.7302, std: 0.0104, sample size: 5
+Score for 4kro_B_18 from FASTA, mean: 1.9515, std: 0.0063, sample size: 5,  global score, mean: 1.7310, std: 0.0059, sample size: 5
+Score for 4kro_B_19 from FASTA, mean: 1.9407, std: 0.0182, sample size: 5,  global score, mean: 1.7259, std: 0.0136, sample size: 5
+Score for 4kro_B_20 from FASTA, mean: 1.9434, std: 0.0129, sample size: 5,  global score, mean: 1.7265, std: 0.0106, sample size: 5
+Score for 4kro_B_21 from FASTA, mean: 1.9527, std: 0.0054, sample size: 5,  global score, mean: 1.7311, std: 0.0042, sample size: 5
+Score for 4kro_B_22 from FASTA, mean: 1.9406, std: 0.0021, sample size: 5,  global score, mean: 1.7264, std: 0.0025, sample size: 5
+Score for 4kro_B_23 from FASTA, mean: 1.9464, std: 0.0083, sample size: 5,  global score, mean: 1.7280, std: 0.0083, sample size: 5
+Score for 4kro_B_24 from FASTA, mean: 1.9449, std: 0.0175, sample size: 5,  global score, mean: 1.7271, std: 0.0120, sample size: 5
+Score for 4kro_B_25 from FASTA, mean: 1.9405, std: 0.0056, sample size: 5,  global score, mean: 1.7223, std: 0.0024, sample size: 5
+Score for 4kro_B_26 from FASTA, mean: 1.9459, std: 0.0076, sample size: 5,  global score, mean: 1.7286, std: 0.0069, sample size: 5
+Score for 4kro_B_27 from FASTA, mean: 1.9417, std: 0.0093, sample size: 5,  global score, mean: 1.7262, std: 0.0084, sample size: 5
+Score for 4kro_B_28 from FASTA, mean: 1.9462, std: 0.0054, sample size: 5,  global score, mean: 1.7291, std: 0.0042, sample size: 5
+Score for 4kro_B_29 from FASTA, mean: 1.9509, std: 0.0053, sample size: 5,  global score, mean: 1.7294, std: 0.0025, sample size: 5
+Score for 4kro_B_30 from FASTA, mean: 1.9421, std: 0.0040, sample size: 5,  global score, mean: 1.7270, std: 0.0049, sample size: 5
+Score for 4kro_B_31 from FASTA, mean: 1.9510, std: 0.0095, sample size: 5,  global score, mean: 1.7320, std: 0.0036, sample size: 5
+Score for 4kro_B_32 from FASTA, mean: 1.9400, std: 0.0090, sample size: 5,  global score, mean: 1.7255, std: 0.0057, sample size: 5
+Score for 4kro_B_33 from FASTA, mean: 1.9380, std: 0.0062, sample size: 5,  global score, mean: 1.7254, std: 0.0041, sample size: 5
+Score for 4kro_B_34 from FASTA, mean: 1.9501, std: 0.0145, sample size: 5,  global score, mean: 1.7300, std: 0.0108, sample size: 5
+Score for 4kro_B_35 from FASTA, mean: 1.9464, std: 0.0145, sample size: 5,  global score, mean: 1.7280, std: 0.0089, sample size: 5
+Score for 4kro_B_36 from FASTA, mean: 1.9367, std: 0.0136, sample size: 5,  global score, mean: 1.7234, std: 0.0093, sample size: 5
+Score for 4kro_B_37 from FASTA, mean: 1.9418, std: 0.0083, sample size: 5,  global score, mean: 1.7268, std: 0.0049, sample size: 5
+Score for 4kro_B_38 from FASTA, mean: 1.9402, std: 0.0088, sample size: 5,  global score, mean: 1.7242, std: 0.0057, sample size: 5
+Score for 4kro_B_39 from FASTA, mean: 1.9367, std: 0.0095, sample size: 5,  global score, mean: 1.7226, std: 0.0075, sample size: 5
+Score for 4kro_B_40 from FASTA, mean: 1.9467, std: 0.0058, sample size: 5,  global score, mean: 1.7294, std: 0.0050, sample size: 5
+Score for 4kro_B_41 from FASTA, mean: 1.9397, std: 0.0073, sample size: 5,  global score, mean: 1.7237, std: 0.0035, sample size: 5
+Score for 4kro_B_42 from FASTA, mean: 1.9547, std: 0.0040, sample size: 5,  global score, mean: 1.7321, std: 0.0026, sample size: 5
+Score for 4kro_B_43 from FASTA, mean: 1.9438, std: 0.0144, sample size: 5,  global score, mean: 1.7226, std: 0.0094, sample size: 5
+Score for 4kro_B_44 from FASTA, mean: 1.9444, std: 0.0133, sample size: 5,  global score, mean: 1.7263, std: 0.0095, sample size: 5
+Score for 4kro_B_45 from FASTA, mean: 1.9400, std: 0.0088, sample size: 5,  global score, mean: 1.7241, std: 0.0053, sample size: 5
+Score for 4kro_B_46 from FASTA, mean: 1.9437, std: 0.0127, sample size: 5,  global score, mean: 1.7269, std: 0.0082, sample size: 5
+Score for 4kro_B_47 from FASTA, mean: 1.9454, std: 0.0078, sample size: 5,  global score, mean: 1.7254, std: 0.0078, sample size: 5
+Score for 4kro_B_48 from FASTA, mean: 1.9401, std: 0.0084, sample size: 5,  global score, mean: 1.7225, std: 0.0032, sample size: 5
+Score for 4kro_B_49 from FASTA, mean: 1.9384, std: 0.0154, sample size: 5,  global score, mean: 1.7245, std: 0.0102, sample size: 5
+Score for 4kro_B_50 from FASTA, mean: 1.9431, std: 0.0129, sample size: 5,  global score, mean: 1.7243, std: 0.0095, sample size: 5
+Score for 4kro_B_51 from FASTA, mean: 1.9424, std: 0.0109, sample size: 5,  global score, mean: 1.7256, std: 0.0054, sample size: 5
+Score for 4kro_B_52 from FASTA, mean: 1.9395, std: 0.0114, sample size: 5,  global score, mean: 1.7242, std: 0.0084, sample size: 5
+Score for 4kro_B_53 from FASTA, mean: 1.9386, std: 0.0135, sample size: 5,  global score, mean: 1.7213, std: 0.0080, sample size: 5
+Score for 4kro_B_54 from FASTA, mean: 1.9422, std: 0.0082, sample size: 5,  global score, mean: 1.7230, std: 0.0045, sample size: 5
+Score for 4kro_B_55 from FASTA, mean: 1.9406, std: 0.0118, sample size: 5,  global score, mean: 1.7262, std: 0.0068, sample size: 5
+Score for 4kro_B_56 from FASTA, mean: 1.9457, std: 0.0109, sample size: 5,  global score, mean: 1.7290, std: 0.0039, sample size: 5
+Score for 4kro_B_57 from FASTA, mean: 1.9481, std: 0.0138, sample size: 5,  global score, mean: 1.7304, std: 0.0105, sample size: 5
+Score for 4kro_B_58 from FASTA, mean: 1.9424, std: 0.0176, sample size: 5,  global score, mean: 1.7253, std: 0.0086, sample size: 5
+Score for 4kro_B_59 from FASTA, mean: 1.9320, std: 0.0101, sample size: 5,  global score, mean: 1.7186, std: 0.0082, sample size: 5
+Score for 4kro_B_60 from FASTA, mean: 1.9351, std: 0.0062, sample size: 5,  global score, mean: 1.7210, std: 0.0046, sample size: 5
+Score for 4kro_B_61 from FASTA, mean: 1.9411, std: 0.0142, sample size: 5,  global score, mean: 1.7237, std: 0.0060, sample size: 5
+Score for 4kro_B_62 from FASTA, mean: 1.9451, std: 0.0045, sample size: 5,  global score, mean: 1.7265, std: 0.0061, sample size: 5
+Score for 4kro_B_63 from FASTA, mean: 1.9345, std: 0.0131, sample size: 5,  global score, mean: 1.7221, std: 0.0076, sample size: 5
+Score for 4kro_B_64 from FASTA, mean: 1.9403, std: 0.0090, sample size: 5,  global score, mean: 1.7219, std: 0.0058, sample size: 5
+Score for 4kro_B_65 from FASTA, mean: 1.9484, std: 0.0127, sample size: 5,  global score, mean: 1.7299, std: 0.0083, sample size: 5
+Score for 4kro_B_66 from FASTA, mean: 1.9462, std: 0.0144, sample size: 5,  global score, mean: 1.7270, std: 0.0090, sample size: 5
+Score for 4kro_B_67 from FASTA, mean: 1.9486, std: 0.0125, sample size: 5,  global score, mean: 1.7273, std: 0.0080, sample size: 5
+Score for 4kro_B_68 from FASTA, mean: 1.9411, std: 0.0108, sample size: 5,  global score, mean: 1.7226, std: 0.0077, sample size: 5
+Score for 4kro_B_69 from FASTA, mean: 1.9343, std: 0.0130, sample size: 5,  global score, mean: 1.7204, std: 0.0083, sample size: 5
+Score for 4kro_B_70 from FASTA, mean: 1.9408, std: 0.0188, sample size: 5,  global score, mean: 1.7252, std: 0.0110, sample size: 5
+Score for 4kro_B_71 from FASTA, mean: 1.9353, std: 0.0058, sample size: 5,  global score, mean: 1.7191, std: 0.0045, sample size: 5
+Score for 4kro_B_72 from FASTA, mean: 1.9451, std: 0.0120, sample size: 5,  global score, mean: 1.7291, std: 0.0082, sample size: 5
+Score for 4kro_B_73 from FASTA, mean: 1.9446, std: 0.0112, sample size: 5,  global score, mean: 1.7275, std: 0.0086, sample size: 5
+Score for 4kro_B_74 from FASTA, mean: 1.9446, std: 0.0126, sample size: 5,  global score, mean: 1.7302, std: 0.0079, sample size: 5
+Score for 4kro_B_75 from FASTA, mean: 1.9343, std: 0.0141, sample size: 5,  global score, mean: 1.7198, std: 0.0080, sample size: 5
+Score for 4kro_B_76 from FASTA, mean: 1.9413, std: 0.0057, sample size: 5,  global score, mean: 1.7263, std: 0.0055, sample size: 5
+Score for 4kro_B_77 from FASTA, mean: 1.9490, std: 0.0162, sample size: 5,  global score, mean: 1.7315, std: 0.0100, sample size: 5
+Score for 4kro_B_78 from FASTA, mean: 1.9436, std: 0.0079, sample size: 5,  global score, mean: 1.7266, std: 0.0048, sample size: 5
+Score for 4kro_B_79 from FASTA, mean: 1.9429, std: 0.0143, sample size: 5,  global score, mean: 1.7257, std: 0.0088, sample size: 5
+Score for 4kro_B_80 from FASTA, mean: 1.9516, std: 0.0077, sample size: 5,  global score, mean: 1.7306, std: 0.0064, sample size: 5
+Score for 4kro_B_81 from FASTA, mean: 1.9425, std: 0.0111, sample size: 5,  global score, mean: 1.7278, std: 0.0073, sample size: 5
+Score for 4kro_B_82 from FASTA, mean: 1.9476, std: 0.0124, sample size: 5,  global score, mean: 1.7282, std: 0.0095, sample size: 5
+Score for 4kro_B_83 from FASTA, mean: 1.9387, std: 0.0066, sample size: 5,  global score, mean: 1.7224, std: 0.0031, sample size: 5
+Score for 4kro_B_84 from FASTA, mean: 1.9465, std: 0.0168, sample size: 5,  global score, mean: 1.7292, std: 0.0110, sample size: 5
+Score for 4kro_B_85 from FASTA, mean: 1.9415, std: 0.0171, sample size: 5,  global score, mean: 1.7226, std: 0.0137, sample size: 5
+Score for 4kro_B_86 from FASTA, mean: 1.9436, std: 0.0057, sample size: 5,  global score, mean: 1.7298, std: 0.0048, sample size: 5
+Score for 4kro_B_87 from FASTA, mean: 1.9449, std: 0.0115, sample size: 5,  global score, mean: 1.7286, std: 0.0076, sample size: 5
+Score for 4kro_B_88 from FASTA, mean: 1.9418, std: 0.0083, sample size: 5,  global score, mean: 1.7235, std: 0.0046, sample size: 5
+Score for 4kro_B_89 from FASTA, mean: 1.9534, std: 0.0137, sample size: 5,  global score, mean: 1.7350, std: 0.0093, sample size: 5
+Score for 4kro_B_90 from FASTA, mean: 1.9499, std: 0.0085, sample size: 5,  global score, mean: 1.7302, std: 0.0044, sample size: 5
+Score for 4kro_B_91 from FASTA, mean: 1.9406, std: 0.0137, sample size: 5,  global score, mean: 1.7211, std: 0.0080, sample size: 5
+Score for 4kro_B_92 from FASTA, mean: 1.9441, std: 0.0118, sample size: 5,  global score, mean: 1.7292, std: 0.0095, sample size: 5
+Score for 4kro_B_93 from FASTA, mean: 1.9334, std: 0.0099, sample size: 5,  global score, mean: 1.7196, std: 0.0077, sample size: 5
+Score for 4kro_B_94 from FASTA, mean: 1.9436, std: 0.0086, sample size: 5,  global score, mean: 1.7289, std: 0.0062, sample size: 5
+Score for 4kro_B_95 from FASTA, mean: 1.9408, std: 0.0128, sample size: 5,  global score, mean: 1.7225, std: 0.0096, sample size: 5
+Score for 4kro_B_96 from FASTA, mean: 1.9421, std: 0.0071, sample size: 5,  global score, mean: 1.7251, std: 0.0058, sample size: 5
+Score for 4kro_B_97 from FASTA, mean: 1.9409, std: 0.0120, sample size: 5,  global score, mean: 1.7223, std: 0.0103, sample size: 5
+Score for 4kro_B_98 from FASTA, mean: 1.9420, std: 0.0067, sample size: 5,  global score, mean: 1.7228, std: 0.0033, sample size: 5
+Score for 4kro_B_99 from FASTA, mean: 1.9416, std: 0.0096, sample size: 5,  global score, mean: 1.7265, std: 0.0049, sample size: 5
+Score for 4kro_B_100 from FASTA, mean: 1.9373, std: 0.0076, sample size: 5,  global score, mean: 1.7244, std: 0.0037, sample size: 5

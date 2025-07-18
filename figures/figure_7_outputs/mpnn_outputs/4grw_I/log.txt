@@ -1,0 +1,119 @@
+----------------------------------------
+chain_id_jsonl is NOT loaded
+----------------------------------------
+fixed_positions_jsonl is NOT loaded
+----------------------------------------
+pssm_jsonl is NOT loaded
+----------------------------------------
+omit_AA_jsonl is NOT loaded
+----------------------------------------
+bias_AA_jsonl is NOT loaded
+----------------------------------------
+tied_positions_jsonl is NOT loaded
+----------------------------------------
+bias by residue dictionary is not loaded, or not provided
+----------------------------------------
+----------------------------------------
+Number of edges: 48
+Training noise level: 0.2A
+Score for 4grw_I from PDB, mean: 1.4415, std: 0.0080, sample size: 5,  global score, mean: 1.4056, std: 0.0047, sample size: 5
+Score for 4grw_I_1 from FASTA, mean: 1.8316, std: 0.0064, sample size: 5,  global score, mean: 1.5839, std: 0.0052, sample size: 5
+Score for 4grw_I_2 from FASTA, mean: 1.8448, std: 0.0127, sample size: 5,  global score, mean: 1.5903, std: 0.0053, sample size: 5
+Score for 4grw_I_3 from FASTA, mean: 1.8482, std: 0.0107, sample size: 5,  global score, mean: 1.5899, std: 0.0041, sample size: 5
+Score for 4grw_I_4 from FASTA, mean: 1.8493, std: 0.0099, sample size: 5,  global score, mean: 1.5912, std: 0.0019, sample size: 5
+Score for 4grw_I_5 from FASTA, mean: 1.8435, std: 0.0114, sample size: 5,  global score, mean: 1.5862, std: 0.0053, sample size: 5
+Score for 4grw_I_6 from FASTA, mean: 1.8388, std: 0.0066, sample size: 5,  global score, mean: 1.5849, std: 0.0033, sample size: 5
+Score for 4grw_I_7 from FASTA, mean: 1.8565, std: 0.0108, sample size: 5,  global score, mean: 1.5913, std: 0.0058, sample size: 5
+Score for 4grw_I_8 from FASTA, mean: 1.8478, std: 0.0170, sample size: 5,  global score, mean: 1.5907, std: 0.0081, sample size: 5
+Score for 4grw_I_9 from FASTA, mean: 1.8415, std: 0.0184, sample size: 5,  global score, mean: 1.5898, std: 0.0104, sample size: 5
+Score for 4grw_I_10 from FASTA, mean: 1.8459, std: 0.0128, sample size: 5,  global score, mean: 1.5892, std: 0.0058, sample size: 5
+Score for 4grw_I_11 from FASTA, mean: 1.8467, std: 0.0096, sample size: 5,  global score, mean: 1.5892, std: 0.0051, sample size: 5
+Score for 4grw_I_12 from FASTA, mean: 1.8500, std: 0.0050, sample size: 5,  global score, mean: 1.5882, std: 0.0018, sample size: 5
+Score for 4grw_I_13 from FASTA, mean: 1.8610, std: 0.0088, sample size: 5,  global score, mean: 1.5958, std: 0.0026, sample size: 5
+Score for 4grw_I_14 from FASTA, mean: 1.8441, std: 0.0085, sample size: 5,  global score, mean: 1.5894, std: 0.0050, sample size: 5
+Score for 4grw_I_15 from FASTA, mean: 1.8493, std: 0.0103, sample size: 5,  global score, mean: 1.5903, std: 0.0071, sample size: 5
+Score for 4grw_I_16 from FASTA, mean: 1.8451, std: 0.0152, sample size: 5,  global score, mean: 1.5881, std: 0.0058, sample size: 5
+Score for 4grw_I_17 from FASTA, mean: 1.8485, std: 0.0061, sample size: 5,  global score, mean: 1.5897, std: 0.0072, sample size: 5
+Score for 4grw_I_18 from FASTA, mean: 1.8481, std: 0.0103, sample size: 5,  global score, mean: 1.5876, std: 0.0060, sample size: 5
+Score for 4grw_I_19 from FASTA, mean: 1.8375, std: 0.0097, sample size: 5,  global score, mean: 1.5863, std: 0.0061, sample size: 5
+Score for 4grw_I_20 from FASTA, mean: 1.8460, std: 0.0068, sample size: 5,  global score, mean: 1.5887, std: 0.0032, sample size: 5
+Score for 4grw_I_21 from FASTA, mean: 1.8473, std: 0.0144, sample size: 5,  global score, mean: 1.5885, std: 0.0055, sample size: 5
+Score for 4grw_I_22 from FASTA, mean: 1.8462, std: 0.0115, sample size: 5,  global score, mean: 1.5874, std: 0.0063, sample size: 5
+Score for 4grw_I_23 from FASTA, mean: 1.8435, std: 0.0056, sample size: 5,  global score, mean: 1.5875, std: 0.0050, sample size: 5
+Score for 4grw_I_24 from FASTA, mean: 1.8406, std: 0.0074, sample size: 5,  global score, mean: 1.5859, std: 0.0062, sample size: 5
+Score for 4grw_I_25 from FASTA, mean: 1.8375, std: 0.0136, sample size: 5,  global score, mean: 1.5835, std: 0.0075, sample size: 5
+Score for 4grw_I_26 from FASTA, mean: 1.8548, std: 0.0057, sample size: 5,  global score, mean: 1.5950, std: 0.0035, sample size: 5
+Score for 4grw_I_27 from FASTA, mean: 1.8431, std: 0.0115, sample size: 5,  global score, mean: 1.5861, std: 0.0059, sample size: 5
+Score for 4grw_I_28 from FASTA, mean: 1.8391, std: 0.0094, sample size: 5,  global score, mean: 1.5876, std: 0.0050, sample size: 5
+Score for 4grw_I_29 from FASTA, mean: 1.8491, std: 0.0077, sample size: 5,  global score, mean: 1.5904, std: 0.0060, sample size: 5
+Score for 4grw_I_30 from FASTA, mean: 1.8477, std: 0.0170, sample size: 5,  global score, mean: 1.5900, std: 0.0081, sample size: 5
+Score for 4grw_I_31 from FASTA, mean: 1.8358, std: 0.0071, sample size: 5,  global score, mean: 1.5827, std: 0.0056, sample size: 5
+Score for 4grw_I_32 from FASTA, mean: 1.8415, std: 0.0094, sample size: 5,  global score, mean: 1.5863, std: 0.0078, sample size: 5
+Score for 4grw_I_33 from FASTA, mean: 1.8520, std: 0.0165, sample size: 5,  global score, mean: 1.5912, std: 0.0070, sample size: 5
+Score for 4grw_I_34 from FASTA, mean: 1.8441, std: 0.0059, sample size: 5,  global score, mean: 1.5867, std: 0.0067, sample size: 5
+Score for 4grw_I_35 from FASTA, mean: 1.8446, std: 0.0119, sample size: 5,  global score, mean: 1.5902, std: 0.0043, sample size: 5
+Score for 4grw_I_36 from FASTA, mean: 1.8554, std: 0.0093, sample size: 5,  global score, mean: 1.5942, std: 0.0076, sample size: 5
+Score for 4grw_I_37 from FASTA, mean: 1.8421, std: 0.0103, sample size: 5,  global score, mean: 1.5864, std: 0.0076, sample size: 5
+Score for 4grw_I_38 from FASTA, mean: 1.8462, std: 0.0124, sample size: 5,  global score, mean: 1.5894, std: 0.0051, sample size: 5
+Score for 4grw_I_39 from FASTA, mean: 1.8374, std: 0.0082, sample size: 5,  global score, mean: 1.5847, std: 0.0029, sample size: 5
+Score for 4grw_I_40 from FASTA, mean: 1.8525, std: 0.0100, sample size: 5,  global score, mean: 1.5909, std: 0.0042, sample size: 5
+Score for 4grw_I_41 from FASTA, mean: 1.8385, std: 0.0130, sample size: 5,  global score, mean: 1.5847, std: 0.0034, sample size: 5
+Score for 4grw_I_42 from FASTA, mean: 1.8533, std: 0.0066, sample size: 5,  global score, mean: 1.5938, std: 0.0024, sample size: 5
+Score for 4grw_I_43 from FASTA, mean: 1.8408, std: 0.0087, sample size: 5,  global score, mean: 1.5886, std: 0.0046, sample size: 5
+Score for 4grw_I_44 from FASTA, mean: 1.8529, std: 0.0134, sample size: 5,  global score, mean: 1.5940, std: 0.0053, sample size: 5
+Score for 4grw_I_45 from FASTA, mean: 1.8412, std: 0.0082, sample size: 5,  global score, mean: 1.5915, std: 0.0031, sample size: 5
+Score for 4grw_I_46 from FASTA, mean: 1.8617, std: 0.0072, sample size: 5,  global score, mean: 1.5976, std: 0.0059, sample size: 5
+Score for 4grw_I_47 from FASTA, mean: 1.8283, std: 0.0123, sample size: 5,  global score, mean: 1.5818, std: 0.0056, sample size: 5
+Score for 4grw_I_48 from FASTA, mean: 1.8487, std: 0.0138, sample size: 5,  global score, mean: 1.5919, std: 0.0061, sample size: 5
+Score for 4grw_I_49 from FASTA, mean: 1.8552, std: 0.0063, sample size: 5,  global score, mean: 1.5946, std: 0.0071, sample size: 5
+Score for 4grw_I_50 from FASTA, mean: 1.8469, std: 0.0132, sample size: 5,  global score, mean: 1.5921, std: 0.0059, sample size: 5
+Score for 4grw_I_51 from FASTA, mean: 1.8374, std: 0.0103, sample size: 5,  global score, mean: 1.5859, std: 0.0054, sample size: 5
+Score for 4grw_I_52 from FASTA, mean: 1.8387, std: 0.0156, sample size: 5,  global score, mean: 1.5863, std: 0.0058, sample size: 5
+Score for 4grw_I_53 from FASTA, mean: 1.8578, std: 0.0093, sample size: 5,  global score, mean: 1.5948, std: 0.0057, sample size: 5
+Score for 4grw_I_54 from FASTA, mean: 1.8480, std: 0.0065, sample size: 5,  global score, mean: 1.5912, std: 0.0044, sample size: 5
+Score for 4grw_I_55 from FASTA, mean: 1.8354, std: 0.0075, sample size: 5,  global score, mean: 1.5823, std: 0.0069, sample size: 5
+Score for 4grw_I_56 from FASTA, mean: 1.8405, std: 0.0128, sample size: 5,  global score, mean: 1.5853, std: 0.0042, sample size: 5
+Score for 4grw_I_57 from FASTA, mean: 1.8419, std: 0.0075, sample size: 5,  global score, mean: 1.5871, std: 0.0038, sample size: 5
+Score for 4grw_I_58 from FASTA, mean: 1.8503, std: 0.0098, sample size: 5,  global score, mean: 1.5915, std: 0.0035, sample size: 5
+Score for 4grw_I_59 from FASTA, mean: 1.8459, std: 0.0112, sample size: 5,  global score, mean: 1.5898, std: 0.0062, sample size: 5
+Score for 4grw_I_60 from FASTA, mean: 1.8524, std: 0.0080, sample size: 5,  global score, mean: 1.5913, std: 0.0055, sample size: 5
+Score for 4grw_I_61 from FASTA, mean: 1.8412, std: 0.0036, sample size: 5,  global score, mean: 1.5858, std: 0.0041, sample size: 5
+Score for 4grw_I_62 from FASTA, mean: 1.8479, std: 0.0054, sample size: 5,  global score, mean: 1.5864, std: 0.0027, sample size: 5
+Score for 4grw_I_63 from FASTA, mean: 1.8474, std: 0.0033, sample size: 5,  global score, mean: 1.5894, std: 0.0025, sample size: 5
+Score for 4grw_I_64 from FASTA, mean: 1.8533, std: 0.0139, sample size: 5,  global score, mean: 1.5923, std: 0.0057, sample size: 5
+Score for 4grw_I_65 from FASTA, mean: 1.8459, std: 0.0055, sample size: 5,  global score, mean: 1.5890, std: 0.0051, sample size: 5
+Score for 4grw_I_66 from FASTA, mean: 1.8409, std: 0.0062, sample size: 5,  global score, mean: 1.5895, std: 0.0042, sample size: 5
+Score for 4grw_I_67 from FASTA, mean: 1.8394, std: 0.0042, sample size: 5,  global score, mean: 1.5857, std: 0.0022, sample size: 5
+Score for 4grw_I_68 from FASTA, mean: 1.8530, std: 0.0067, sample size: 5,  global score, mean: 1.5904, std: 0.0047, sample size: 5
+Score for 4grw_I_69 from FASTA, mean: 1.8490, std: 0.0119, sample size: 5,  global score, mean: 1.5943, std: 0.0061, sample size: 5
+Score for 4grw_I_70 from FASTA, mean: 1.8509, std: 0.0100, sample size: 5,  global score, mean: 1.5900, std: 0.0060, sample size: 5
+Score for 4grw_I_71 from FASTA, mean: 1.8569, std: 0.0037, sample size: 5,  global score, mean: 1.5924, std: 0.0024, sample size: 5
+Score for 4grw_I_72 from FASTA, mean: 1.8450, std: 0.0125, sample size: 5,  global score, mean: 1.5899, std: 0.0061, sample size: 5
+Score for 4grw_I_73 from FASTA, mean: 1.8409, std: 0.0084, sample size: 5,  global score, mean: 1.5849, std: 0.0046, sample size: 5
+Score for 4grw_I_74 from FASTA, mean: 1.8581, std: 0.0102, sample size: 5,  global score, mean: 1.5955, std: 0.0028, sample size: 5
+Score for 4grw_I_75 from FASTA, mean: 1.8547, std: 0.0070, sample size: 5,  global score, mean: 1.5964, std: 0.0033, sample size: 5
+Score for 4grw_I_76 from FASTA, mean: 1.8539, std: 0.0051, sample size: 5,  global score, mean: 1.5933, std: 0.0046, sample size: 5
+Score for 4grw_I_77 from FASTA, mean: 1.8445, std: 0.0033, sample size: 5,  global score, mean: 1.5876, std: 0.0064, sample size: 5
+Score for 4grw_I_78 from FASTA, mean: 1.8398, std: 0.0094, sample size: 5,  global score, mean: 1.5844, std: 0.0061, sample size: 5
+Score for 4grw_I_79 from FASTA, mean: 1.8491, std: 0.0071, sample size: 5,  global score, mean: 1.5874, std: 0.0049, sample size: 5
+Score for 4grw_I_80 from FASTA, mean: 1.8425, std: 0.0145, sample size: 5,  global score, mean: 1.5864, std: 0.0091, sample size: 5
+Score for 4grw_I_81 from FASTA, mean: 1.8531, std: 0.0058, sample size: 5,  global score, mean: 1.5946, std: 0.0059, sample size: 5
+Score for 4grw_I_82 from FASTA, mean: 1.8410, std: 0.0120, sample size: 5,  global score, mean: 1.5886, std: 0.0042, sample size: 5
+Score for 4grw_I_83 from FASTA, mean: 1.8461, std: 0.0091, sample size: 5,  global score, mean: 1.5914, std: 0.0019, sample size: 5
+Score for 4grw_I_84 from FASTA, mean: 1.8346, std: 0.0159, sample size: 5,  global score, mean: 1.5835, std: 0.0061, sample size: 5
+Score for 4grw_I_85 from FASTA, mean: 1.8438, std: 0.0107, sample size: 5,  global score, mean: 1.5873, std: 0.0063, sample size: 5
+Score for 4grw_I_86 from FASTA, mean: 1.8520, std: 0.0054, sample size: 5,  global score, mean: 1.5905, std: 0.0023, sample size: 5
+Score for 4grw_I_87 from FASTA, mean: 1.8454, std: 0.0105, sample size: 5,  global score, mean: 1.5908, std: 0.0087, sample size: 5
+Score for 4grw_I_88 from FASTA, mean: 1.8518, std: 0.0098, sample size: 5,  global score, mean: 1.5893, std: 0.0048, sample size: 5
+Score for 4grw_I_89 from FASTA, mean: 1.8454, std: 0.0086, sample size: 5,  global score, mean: 1.5860, std: 0.0044, sample size: 5
+Score for 4grw_I_90 from FASTA, mean: 1.8439, std: 0.0143, sample size: 5,  global score, mean: 1.5858, std: 0.0053, sample size: 5
+Score for 4grw_I_91 from FASTA, mean: 1.8479, std: 0.0066, sample size: 5,  global score, mean: 1.5912, std: 0.0043, sample size: 5
+Score for 4grw_I_92 from FASTA, mean: 1.8464, std: 0.0152, sample size: 5,  global score, mean: 1.5873, std: 0.0056, sample size: 5
+Score for 4grw_I_93 from FASTA, mean: 1.8552, std: 0.0084, sample size: 5,  global score, mean: 1.5900, std: 0.0065, sample size: 5
+Score for 4grw_I_94 from FASTA, mean: 1.8400, std: 0.0089, sample size: 5,  global score, mean: 1.5887, std: 0.0071, sample size: 5
+Score for 4grw_I_95 from FASTA, mean: 1.8488, std: 0.0046, sample size: 5,  global score, mean: 1.5912, std: 0.0043, sample size: 5
+Score for 4grw_I_96 from FASTA, mean: 1.8451, std: 0.0113, sample size: 5,  global score, mean: 1.5904, std: 0.0062, sample size: 5
+Score for 4grw_I_97 from FASTA, mean: 1.8490, std: 0.0090, sample size: 5,  global score, mean: 1.5908, std: 0.0024, sample size: 5
+Score for 4grw_I_98 from FASTA, mean: 1.8463, std: 0.0109, sample size: 5,  global score, mean: 1.5889, std: 0.0021, sample size: 5
+Score for 4grw_I_99 from FASTA, mean: 1.8561, std: 0.0125, sample size: 5,  global score, mean: 1.5947, std: 0.0072, sample size: 5
+Score for 4grw_I_100 from FASTA, mean: 1.8440, std: 0.0062, sample size: 5,  global score, mean: 1.5882, std: 0.0068, sample size: 5
