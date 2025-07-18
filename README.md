@@ -44,8 +44,9 @@ As part of this work, we provide the following pretrained models, as well as cod
 
 | Model | Description | Parameters | Link |
 | --- | --- | --- | --- |
-|CNN| Convolutional Neural Network| XXK| Link|
-|LR| Logistic Regression| XXK| Link|
+|CNN| Convolutional Neural Network| 8k| Link|
+|LR| Logistic Regression| 1k| Link|
+|RNN| Recurrent Neural Network| 39k| Link|
 
 ### Figures
 
