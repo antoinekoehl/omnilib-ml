@@ -102,6 +102,8 @@ class CDR1and2Dataset(Dataset):
     def __getitem__(self, idx):
         return self.numseqs[idx], self.labels[idx]
     
+
+    
 class CDRNNDataset(Dataset):
     def __init__(self, datafile):
         if isinstance(datafile, str):
