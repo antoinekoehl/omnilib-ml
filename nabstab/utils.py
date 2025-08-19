@@ -12,18 +12,20 @@ import matplotlib.pyplot as plt
 import matplotlib as mpl
 import seaborn as sns
 
-from nabstab.datasets.classifier_dataset import pad_cdr2, pad_internal, AA2INDEX
+from nabstab.datasets.classifier_dataset import (
+    pad_cdr2,
+    pad_internal,
+    AA2INDEX
+)
 from nabstab.models.fitness_classifier import (
     OmnilibStabilityPredictor,
     ConvNet,
-    ConvNet2,
     LinearNet,
     FC,
-    ProteinRNN
 )
-from nabstab.models.flow_match_model import LlamaFlowModule
 
 def train_epoch(model, optimizer, loader, device):
+    """Train the model for one epoch on the provided data loader."""
     cum_loss = 0
     cum_acc = 0
     model.train()
@@ -47,6 +49,7 @@ def train_epoch(model, optimizer, loader, device):
     return cum_loss / len(loader), cum_acc / len(loader)
 
 def val_epoch(model, loader, device):
+    """Validate the model on the provided data loader."""
     cum_loss = 0
     cum_acc = 0
     model.eval()
@@ -66,6 +69,7 @@ def val_epoch(model, loader, device):
     return cum_loss / len(loader), cum_acc / len(loader)
 
 def train_model(model, train_loader, val_loader, device, optimizer, epochs):
+    """Train the model for a specified number of epochs."""
     pbar = tqdm(range(1, epochs + 1))
     for epoch in pbar:
         train_loss, train_acc = train_epoch(model, optimizer, train_loader, device)
@@ -126,74 +130,10 @@ def load_model(
             alphabet=alphabet
         )
 
-    elif model_type == 'rnn':
-        model = ProteinRNN(
-            input_size = 22,
-            hidden_size = sd['params']['hidden_size'],
-            rnn_type=sd['params']['rnn_type'],
-            alphabet=alphabet
-        )
-
-        model.load_state_dict(sd['model_state_dict'])
-
-    elif model_type == 'natural_cnn':
-        cnn_dim = sd['params']['dim']
-        cnn_ks1 = sd['params']['ks1']
-        cnn_ks2 = sd['params']['ks2']
-
-        fe = ConvNet2(
-            alphabet_size=len(alphabet),
-            dim=cnn_dim,
-            ks1=cnn_ks1,
-            ks2=cnn_ks2,
-            pad_idx = alphabet.padding_idx,
-            pool_type='max'
-        )
-
-        if 'h_dim' in sd['params']:
-            h_dim = sd['params']['h_dim']
-            cl = FC(
-                alphabet_size=cnn_dim,
-                sequence_length=1, #pooled
-                h_dim=h_dim,
-                out_size=1
-            )
-        else:
-            cl = LinearNet(sequence_length=1, alphabet_size=cnn_dim)
-
-        cl.load_state_dict(sd['classifier'])
-        fe.load_state_dict(sd['feature_extractor'])
-
-        model = OmnilibStabilityPredictor(
-            feature_extractor=fe,
-            classifier=cl,
-            alphabet=alphabet
-        )
-
     else:
         raise ValueError(f"Model type {model_type} not recognized")
     
     return model.eval().to(device)
-
-def load_llamaflow_model(llamaflow_ckpt_path, vocab, device, use_flash=False):
-
-    '''Load a llama flow matching model'''
-
-    if not llamaflow_ckpt_path.endswith('.pt'):
-        llamaflow_ckpt_path = llamaflow_ckpt_path + '.pt'
-    
-    if not os.path.exists(llamaflow_ckpt_path):
-        raise ValueError(f"Checkpoint file {llamaflow_ckpt_path} does not exist")
-
-    ckpt = torch.load(llamaflow_ckpt_path, map_location='cpu')
-    ckpt['hyper_parameters']['use_flash'] = use_flash
-    module = LlamaFlowModule(**ckpt['hyper_parameters'], vocab=vocab)
-    module.load_state_dict(ckpt['state_dict'])
-
-    return module.model.to(device).eval()
-
-
-device = torch.device('cuda' if torch.cuda.is_available() else 'cpu')
 
 def test_model(
         model: torch.nn.Module,
@@ -291,7 +231,6 @@ def plot_scores_lr(lrmodel: OmnilibStabilityPredictor,
     fig.tight_layout()
 
     if not isinstance(filename, str):
-        #annoying if it's a posixpath object
         filename = str(filename)
 
     if filename.endswith('.png'):
@@ -333,7 +272,6 @@ def plot_scores_cnn(
     fig.tight_layout()
 
     if not isinstance(filename, str):
-        #annoying if it's a posixpath object
         filename = str(filename)
 
     if filename.endswith('.png'):

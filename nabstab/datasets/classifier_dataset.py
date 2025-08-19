@@ -102,27 +102,3 @@ class CDR1and2Dataset(Dataset):
     def __getitem__(self, idx):
         return self.numseqs[idx], self.labels[idx]
     
-
-    
-class CDRNNDataset(Dataset):
-    def __init__(self, datafile):
-        if isinstance(datafile, str):
-            datafile = pd.read_csv(datafile)
-
-        self.pad_token = 20
-        self.eos_token = 21
-
-        #longest sequence is 48 so pad to 49 for the offset for LM
-        sequences = [s.ljust(49, '-') for s in datafile.CDR1 + datafile.CDR2 + datafile.CDR3]
-        numseqs = torch.tensor([[AA2INDEX[aa] for aa in s] for s in sequences])
-        
-        numseqs[range(numseqs.shape[0]), (numseqs != self.pad_token).sum(1)] = self.eos_token #nifty way to set the last non-pad token to eos
-
-        self.sequences = numseqs
-        self.stability = torch.tensor(datafile.stability == 'high').float() #stability label
-
-    def __len__(self):
-        return self.sequences.shape[0]
-    
-    def __getitem__(self, idx):
-        return self.sequences[idx], self.stability[idx]
