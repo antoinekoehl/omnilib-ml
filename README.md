@@ -13,6 +13,7 @@ This is to ensure best compatibility with the framework used in these synthetic 
 Depending on your use case, you can do a package install, or just use the repository as a library (e.g. in a Jupyter notebook).
 
 I would recommend creating a new virtual environment for this project, to avoid conflicts with other packages.
+We used `python==3.10.15`
 
 First, install a version of pytorch that works on your system (GPU or CPU).
 We used torch 2.2.0, but more recent versions should also work.
@@ -41,8 +42,6 @@ or local (notebook style):
 pip install -r requirements.txt
 ```
 
-
-
 ## Data
 
 We provide preprocessed and generated data for model training, and evaluation. Data generated as part of the
@@ -67,19 +66,19 @@ I set up paths assuming the following structure:
 │   ├── datasets
 │   ├── models
 │   ├── tango.py
+│   ├── constants.py
 │   └── utils.py
 ├── README.md
 ├── requirements.txt
-├── run_tango.py
+...
 ├── setup.py
 ```
 
 ## Models
 
+### Data Format
 
-### Classifier Models
-
-The classifier models require a dataframe with the following columns:
+The classifier models require a dataframe/csv with the following columns:
 cdr1, cdr2, cdr3, stability
 
 example:
@@ -93,10 +92,38 @@ YIFDGYA,LVARITYSSGSTY,NAPAYWFRLRRYDS,low
 SIFGVNA,LVASISSGGSTN,AAVLYRTSRYSQALNY,low
 ```
 
+### Training a Model
 
-## Model Checkpoints
+We provide training scripts for both logistic regression and convolutional neural network models.
 
-As part of this work, we provide the following pretrained models, as well as code to train new models, and run inference.
+To train a model, you can use the following command (after modiying the parameters as needed):
+
+```bash
+# Logistic Regression
+bash train_lr.sh
+
+# Convolutional Neural Network
+bash train_cnn.sh
+```
+These models are fairly lightweight.
+On my machine (Apple M2 Pro - CPU), the LR model takes ~90 seconds to train over 10 epochs, using the full dataset (~1M samples).
+The CNN model, with the parameters we used, takes significantly longer.
+
+If you're using CPU, we'd recommend maybe using a smaller dataset, which is provided in `data/model_training_data/train_subset.csv`.
+This subset has ~30k samples, and a CNN model (with the same architecture) trained on it takes about 90 seconds to train over 10 epochs.
+
+### Running Inference
+To run inference on a new set of sequences, you can use the `evaluate_fitness_scores.py` script.
+This script takes a fasta file with sequences, and a set of trained models, and outputs the fitness scores for each sequence.
+The output is a CSV file with the sequences and their corresponding fitness scores.
+
+```bash
+bash evaluate_fitness.sh
+```
+
+## Pretrained Model Checkpoints
+
+As part of this work, we provide the following pretrained models, as well as code to train new models, as well as run inference.
 
 ### OmniLib Fitness Classifiers
 

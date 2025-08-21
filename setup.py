@@ -5,9 +5,9 @@ setup(
     version="0.1",
     packages=['nabstab'] + find_packages(exclude=['tests*']),
     install_requires=[
-        'numpy>=1.2.4',
-        'pandas>=1.5.3',
-        'scikit-learn>=1.2.2', 
+        'numpy==1.24.0',
+        'pandas==1.5.3',
+        'scikit-learn==1.2.2', 
         'matplotlib',
         'seaborn',
         'tqdm',

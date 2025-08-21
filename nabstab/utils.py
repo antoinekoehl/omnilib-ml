@@ -15,8 +15,8 @@ import seaborn as sns
 from nabstab.datasets.classifier_dataset import (
     pad_cdr2,
     pad_internal,
-    AA2INDEX
 )
+from nabstab.constants import AA2INDEX
 from nabstab.models.fitness_classifier import (
     OmnilibStabilityPredictor,
     ConvNet,
@@ -179,7 +179,6 @@ def dms_redesign(
         device: torch.device,
         batch_size: int = 21,
 ) -> torch.Tensor:
-    
 
     mutated_sequences = []
     for i in range(sequence.shape[1]):

@@ -5,10 +5,8 @@ import numpy as np
 import torch
 from torch.utils.data import Dataset, random_split
 
-AAS = 'ACDEFGHIKLMNPQRSTVWY'
-ALPHABET = AAS + '-'
-AA2INDEX = {v:i for i,v in enumerate(ALPHABET)}
-IDX2AA = {i:v for i,v in enumerate(ALPHABET)}
+from nabstab.constants import AA2INDEX
+
 
 def pad_cdr2(sequence:str) -> str:
     '''
@@ -42,7 +40,11 @@ def pad_end(sequence: str, target_len: int) -> str:
         return sequence + '-' * diff
 
 class NbStabilityDataset(Dataset):
-    def __init__(self, df, alphabet, internal_pad_cdrs = True, cdr3_max_len = 48):
+    def __init__(self, 
+                 df,
+                 alphabet=AA2INDEX,
+                 internal_pad_cdrs=True,
+                 cdr3_max_len=28):
         super().__init__()
 
         if isinstance(df, str):
@@ -73,13 +75,11 @@ class NbStabilityDataset(Dataset):
         return self.numseqs[idx], self.labels[idx]
     
 class CDR1and2Dataset(Dataset):
-    def __init__(self, df, alphabet, internal_pad_cdrs = True, cdr3_max_len = 48):
+    def __init__(self, df, alphabet, internal_pad_cdrs = True):
         super().__init__()
 
         if isinstance(df, str):
             df = pd.read_csv(df)
-
-        cdr3_target = max(df.CDR3.str.len().max(), cdr3_max_len)
 
         #internally pad the CDRs to max length
         if internal_pad_cdrs:
