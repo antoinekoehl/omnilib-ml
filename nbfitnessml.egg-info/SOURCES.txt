@@ -4,6 +4,8 @@ nabstab/__init__.py
 nabstab/constants.py
 nabstab/tango.py
 nabstab/utils.py
+nabstab/models/__init__.py
+nabstab/models/fitness_classifier.py
 nbfitnessml.egg-info/PKG-INFO
 nbfitnessml.egg-info/SOURCES.txt
 nbfitnessml.egg-info/dependency_links.txt
