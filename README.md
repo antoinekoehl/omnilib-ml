@@ -10,7 +10,7 @@ This is to ensure best compatibility with the framework used in these synthetic 
 
 ## Installation
 
-Depending on your use case, you can do a package install, or just use the repository as a library (e.g. in a Jupyter notebook).
+Depending on your use case, you can do a package install, or just use the repository as a library (e.g. in a Jupyter/Colab notebook).
 
 I would recommend creating a new virtual environment for this project, to avoid conflicts with other packages.
 We used `python==3.10.15`
