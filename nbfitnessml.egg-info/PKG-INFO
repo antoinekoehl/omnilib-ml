@@ -1,6 +1,7 @@
 Metadata-Version: 2.4
 Name: nbfitnessml
 Version: 0.1
+License-File: LICENSE.txt
 Requires-Dist: numpy==1.25.0
 Requires-Dist: pandas==1.5.3
 Requires-Dist: scikit-learn==1.2.2
@@ -8,8 +9,11 @@ Requires-Dist: matplotlib
 Requires-Dist: seaborn==0.13.2
 Requires-Dist: tqdm
 Requires-Dist: biopython
+Requires-Dist: levenshtein
+Requires-Dist: logomaker
 Requires-Dist: antpack==0.3.8.6
 Provides-Extra: dev
 Requires-Dist: notebook; extra == "dev"
+Dynamic: license-file
 Dynamic: provides-extra
 Dynamic: requires-dist

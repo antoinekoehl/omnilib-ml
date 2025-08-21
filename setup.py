@@ -12,6 +12,8 @@ setup(
         'seaborn==0.13.2',
         'tqdm',
         'biopython',
+        'levenshtein',
+        'logomaker',
         'antpack==0.3.8.6'
     ],
     extras_require={
