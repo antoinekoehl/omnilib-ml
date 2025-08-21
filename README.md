@@ -42,6 +42,8 @@ or local (notebook style):
 pip install -r requirements.txt
 ```
 
+Note that the `requirements.txt` file includes the versions that we used during development, but it's likely that more recent versions of the packages will work as well.
+
 ## Data
 
 We provide preprocessed and generated data for model training, and evaluation. Data generated as part of the
