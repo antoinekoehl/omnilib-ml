@@ -1,5 +1,4 @@
 from typing import Union, Tuple, List, Dict
-import os
 
 import numpy as np
 import torch
@@ -21,7 +20,6 @@ from nabstab.models.fitness_classifier import (
     FC,
     ProteinRNN
 )
-from nabstab.models.flow_match_model import LlamaFlowModule
 
 def train_epoch(model, optimizer, loader, device):
     cum_loss = 0
@@ -174,23 +172,6 @@ def load_model(
         raise ValueError(f"Model type {model_type} not recognized")
     
     return model.eval().to(device)
-
-def load_llamaflow_model(llamaflow_ckpt_path, vocab, device, use_flash=False):
-
-    '''Load a llama flow matching model'''
-
-    if not llamaflow_ckpt_path.endswith('.pt'):
-        llamaflow_ckpt_path = llamaflow_ckpt_path + '.pt'
-    
-    if not os.path.exists(llamaflow_ckpt_path):
-        raise ValueError(f"Checkpoint file {llamaflow_ckpt_path} does not exist")
-
-    ckpt = torch.load(llamaflow_ckpt_path, map_location='cpu')
-    ckpt['hyper_parameters']['use_flash'] = use_flash
-    module = LlamaFlowModule(**ckpt['hyper_parameters'], vocab=vocab)
-    module.load_state_dict(ckpt['state_dict'])
-
-    return module.model.to(device).eval()
 
 
 device = torch.device('cuda' if torch.cuda.is_available() else 'cpu')
