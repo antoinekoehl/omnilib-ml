@@ -11,17 +11,20 @@ import matplotlib.pyplot as plt
 import matplotlib as mpl
 import seaborn as sns
 
-from nabstab.datasets.classifier_dataset import pad_cdr2, pad_internal, AA2INDEX
+from nabstab.datasets.classifier_dataset import (
+    pad_cdr2,
+    pad_internal,
+)
+from nabstab.constants import AA2INDEX
 from nabstab.models.fitness_classifier import (
     OmnilibStabilityPredictor,
     ConvNet,
-    ConvNet2,
     LinearNet,
     FC,
-    ProteinRNN
 )
 
 def train_epoch(model, optimizer, loader, device):
+    """Train the model for one epoch on the provided data loader."""
     cum_loss = 0
     cum_acc = 0
     model.train()
@@ -45,6 +48,7 @@ def train_epoch(model, optimizer, loader, device):
     return cum_loss / len(loader), cum_acc / len(loader)
 
 def val_epoch(model, loader, device):
+    """Validate the model on the provided data loader."""
     cum_loss = 0
     cum_acc = 0
     model.eval()
@@ -64,6 +68,7 @@ def val_epoch(model, loader, device):
     return cum_loss / len(loader), cum_acc / len(loader)
 
 def train_model(model, train_loader, val_loader, device, optimizer, epochs):
+    """Train the model for a specified number of epochs."""
     pbar = tqdm(range(1, epochs + 1))
     for epoch in pbar:
         train_loss, train_acc = train_epoch(model, optimizer, train_loader, device)
@@ -124,57 +129,10 @@ def load_model(
             alphabet=alphabet
         )
 
-    elif model_type == 'rnn':
-        model = ProteinRNN(
-            input_size = 22,
-            hidden_size = sd['params']['hidden_size'],
-            rnn_type=sd['params']['rnn_type'],
-            alphabet=alphabet
-        )
-
-        model.load_state_dict(sd['model_state_dict'])
-
-    elif model_type == 'natural_cnn':
-        cnn_dim = sd['params']['dim']
-        cnn_ks1 = sd['params']['ks1']
-        cnn_ks2 = sd['params']['ks2']
-
-        fe = ConvNet2(
-            alphabet_size=len(alphabet),
-            dim=cnn_dim,
-            ks1=cnn_ks1,
-            ks2=cnn_ks2,
-            pad_idx = alphabet.padding_idx,
-            pool_type='max'
-        )
-
-        if 'h_dim' in sd['params']:
-            h_dim = sd['params']['h_dim']
-            cl = FC(
-                alphabet_size=cnn_dim,
-                sequence_length=1, #pooled
-                h_dim=h_dim,
-                out_size=1
-            )
-        else:
-            cl = LinearNet(sequence_length=1, alphabet_size=cnn_dim)
-
-        cl.load_state_dict(sd['classifier'])
-        fe.load_state_dict(sd['feature_extractor'])
-
-        model = OmnilibStabilityPredictor(
-            feature_extractor=fe,
-            classifier=cl,
-            alphabet=alphabet
-        )
-
     else:
         raise ValueError(f"Model type {model_type} not recognized")
     
     return model.eval().to(device)
-
-
-device = torch.device('cuda' if torch.cuda.is_available() else 'cpu')
 
 def test_model(
         model: torch.nn.Module,
@@ -220,7 +178,6 @@ def dms_redesign(
         device: torch.device,
         batch_size: int = 21,
 ) -> torch.Tensor:
-    
 
     mutated_sequences = []
     for i in range(sequence.shape[1]):
@@ -272,7 +229,6 @@ def plot_scores_lr(lrmodel: OmnilibStabilityPredictor,
     fig.tight_layout()
 
     if not isinstance(filename, str):
-        #annoying if it's a posixpath object
         filename = str(filename)
 
     if filename.endswith('.png'):
@@ -314,7 +270,6 @@ def plot_scores_cnn(
     fig.tight_layout()
 
     if not isinstance(filename, str):
-        #annoying if it's a posixpath object
         filename = str(filename)
 
     if filename.endswith('.png'):

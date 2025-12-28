@@ -5,10 +5,8 @@ import numpy as np
 import torch
 from torch.utils.data import Dataset, random_split
 
-AAS = 'ACDEFGHIKLMNPQRSTVWY'
-ALPHABET = AAS + '-'
-AA2INDEX = {v:i for i,v in enumerate(ALPHABET)}
-IDX2AA = {i:v for i,v in enumerate(ALPHABET)}
+from nabstab.constants import AA2INDEX
+
 
 def pad_cdr2(sequence:str) -> str:
     '''
@@ -42,7 +40,11 @@ def pad_end(sequence: str, target_len: int) -> str:
         return sequence + '-' * diff
 
 class NbStabilityDataset(Dataset):
-    def __init__(self, df, alphabet, internal_pad_cdrs = True, cdr3_max_len = 48):
+    def __init__(self, 
+                 df,
+                 alphabet=AA2INDEX,
+                 internal_pad_cdrs=True,
+                 cdr3_max_len=28):
         super().__init__()
 
         if isinstance(df, str):
@@ -73,13 +75,11 @@ class NbStabilityDataset(Dataset):
         return self.numseqs[idx], self.labels[idx]
     
 class CDR1and2Dataset(Dataset):
-    def __init__(self, df, alphabet, internal_pad_cdrs = True, cdr3_max_len = 48):
+    def __init__(self, df, alphabet, internal_pad_cdrs = True):
         super().__init__()
 
         if isinstance(df, str):
             df = pd.read_csv(df)
-
-        cdr3_target = max(df.CDR3.str.len().max(), cdr3_max_len)
 
         #internally pad the CDRs to max length
         if internal_pad_cdrs:
@@ -102,27 +102,3 @@ class CDR1and2Dataset(Dataset):
     def __getitem__(self, idx):
         return self.numseqs[idx], self.labels[idx]
     
-
-    
-class CDRNNDataset(Dataset):
-    def __init__(self, datafile):
-        if isinstance(datafile, str):
-            datafile = pd.read_csv(datafile)
-
-        self.pad_token = 20
-        self.eos_token = 21
-
-        #longest sequence is 48 so pad to 49 for the offset for LM
-        sequences = [s.ljust(49, '-') for s in datafile.CDR1 + datafile.CDR2 + datafile.CDR3]
-        numseqs = torch.tensor([[AA2INDEX[aa] for aa in s] for s in sequences])
-        
-        numseqs[range(numseqs.shape[0]), (numseqs != self.pad_token).sum(1)] = self.eos_token #nifty way to set the last non-pad token to eos
-
-        self.sequences = numseqs
-        self.stability = torch.tensor(datafile.stability == 'high').float() #stability label
-
-    def __len__(self):
-        return self.sequences.shape[0]
-    
-    def __getitem__(self, idx):
-        return self.sequences[idx], self.stability[idx]

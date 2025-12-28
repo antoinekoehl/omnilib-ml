@@ -1,7 +1,4 @@
 data/*
 *.ipynb
-wandb/*
-llamaflow/*
-lightning_logs/*
 nabstab/__pycache__/*
 figures/__pycache__/*
