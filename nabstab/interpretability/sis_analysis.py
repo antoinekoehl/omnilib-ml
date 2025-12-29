@@ -226,3 +226,59 @@ def run_sis_batch(
         results[seq] = (pos_counts, aa_pos_counts)
 
     return results
+
+
+def run_sis_batch_with_sets(
+    model: OmnilibStabilityPredictor,
+    sequences: List[str],
+    threshold: float,
+    device: torch.device = None,
+    verbose: bool = True
+) -> Dict[str, List[List[Tuple[int, str]]]]:
+    """
+    Run SIS on multiple sequences and return raw SIS sets.
+
+    Unlike run_sis_batch which returns aggregate counts, this function
+    preserves the actual disjoint SIS sets for downstream clustering.
+
+    Args:
+        model: Trained model
+        sequences: List of padded sequence strings
+        threshold: Decision threshold (0.9 for high stability, 0.1 for low stability)
+        device: Computation device
+        verbose: Print progress
+
+    Returns:
+        Dict mapping sequence -> list of SIS sets.
+        Each SIS set is a sorted list of (position, amino_acid) tuples.
+    """
+    if device is None:
+        device = next(model.parameters()).device
+
+    results = {}
+
+    for i, seq in enumerate(sequences):
+        if verbose and i % 100 == 0:
+            print(f"Processing sequence {i}/{len(sequences)}")
+
+        # Convert to one-hot (seq_len, 21)
+        seq_tensor = string_to_tensor(seq)  # (1, seq_len)
+        seq_onehot = sequence_to_onehot(seq_tensor)  # (1, 21, seq_len)
+        seq_onehot = seq_onehot[0].T.numpy()  # (seq_len, 21)
+
+        collection = run_sis_single(model, seq_onehot, threshold, device)
+
+        # Extract (position, amino_acid) tuples from each SIS
+        sis_sets = []
+        for sis_result in collection:
+            sis_set = []
+            for pos_idx in sis_result.sis:
+                pos = int(pos_idx[0])
+                aa = seq[pos]
+                sis_set.append((pos, aa))
+            # Sort by position for consistent ordering
+            sis_sets.append(sorted(sis_set, key=lambda x: x[0]))
+
+        results[seq] = sis_sets
+
+    return results
