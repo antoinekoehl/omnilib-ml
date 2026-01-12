@@ -48,7 +48,7 @@ Note that the `requirements.txt` file includes the versions that we used during 
 
 We provide preprocessed and generated data for model training, and evaluation. Data generated as part of the
 figures in the paper are also provided.
-The data folder is stored at the following zenodo link: [TODO: Add link]
+The data folder is stored at the following [zenodo link](https://doi.org/10.5281/zenodo.18224780)
 
 Once downloaded, the data can be extracted to the data folder in the root of the repository.
 
