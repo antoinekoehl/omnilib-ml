@@ -14,7 +14,8 @@ setup(
         'biopython',
         'levenshtein',
         'logomaker',
-        'antpack==0.3.8.6'
+        'antpack==0.3.8.6',
+        'captum == 0.8.0'
     ],
     extras_require={
         'dev': [
